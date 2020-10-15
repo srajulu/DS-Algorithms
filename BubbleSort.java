@@ -10,5 +10,5 @@ public class BubbleSort{
           var array[j] = array[i];
           var array[i] = temp;
         }
- }
+  }
 }
