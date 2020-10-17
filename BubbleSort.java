@@ -5,16 +5,11 @@ public class BubbleSort{
     
     for(var i=0; i<array.length; i++)
       for(var j=i+1;j<array.length;j++)
-        if(array[j]<array[i]){
-          var temp = array[j];
-          var array[j] = array[i];
-          var array[i] = temp;
-        }
+        if(array[j]<array[i])
+          swap(array, j, i);
   }
 
-
-
- private void swap(int[] array, int index1,int index2){
+  private void swap(int[] array, int index1,int index2){
 
     var temp = array[index1];
     array[index1] = array[index2];
