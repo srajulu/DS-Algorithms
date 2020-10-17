@@ -11,4 +11,15 @@ public class BubbleSort{
           var array[i] = temp;
         }
   }
+
+
+
+ private void swap(int[] array, int index1,int index2){
+
+
+
+
+
+
+  }
 }
